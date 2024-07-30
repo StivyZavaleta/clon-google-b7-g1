@@ -10,8 +10,28 @@ body {
 
 .icono-buscador{
     display: inline-block;
-    width: 20px;
-    margin: 0px;
+    width: 23px;
+    margin: 2px;
+    padding-top: 2px;
+    opacity: 40%;
+    padding-left: 8px;
+}
+
+.icono-microfono{
+    display: inline-block;
+    width: 27px;
+    margin: 2px;
+    padding-top: 2px;
+    padding-right: 10px;
+    
+}
+
+.icono-camara{
+    display: inline-block;
+    width: 27px;
+    margin: 2px;
+    padding-top: 2px;
+    padding-right: 8px;
 }
 
 .flex {
@@ -37,16 +57,25 @@ ul {
 }
 
 footer p {
-    padding: 15px;
+    padding: 10px;
     margin: 0px;
 }
 
 footer{
     background: #f2f2f2;
+    margin-top: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .linea-arriba {
     border-top: 1px solid #dadce0;
+    padding-left: 30px;
+}
+
+footer ul {
+    padding: 10px;
+    margin: 0px;    
 }
 
 nav {
@@ -78,17 +107,18 @@ article {
 }
 
 #logo img {
-    width: 272px;
+    width: 300px;
+    padding-top: 45px;
 }
 
 #buscador {
     border: 1px solid #dfe1e5;
-    border-radius: 24px;
+    border-radius: 34px;
     display: flex;
     justify-content: center;
-    padding: 10px 10px;
+    padding: 6px 6px;
     align-items: flex-end;
-    width: 530px;
+    width: 630px;
     margin-top: 1.5em;
 }
 
@@ -102,33 +132,57 @@ article {
     flex-grow: 1;
     border: none;
     outline: none;
+    padding-bottom: 8px;
+    padding-left: 10px;
 }
 
 #botones button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
-    color: #3c4043;
-    padding: 0 16px;
-    height: 36px;
+    color: #4d575e;
+    padding: 0 18px;
+    height: 40px;
     margin: 11px 4px;
     border-radius: 4px;
+    font-size: 15px;
+    text-decoration:none;
 }
 
 #botones button:hover {
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
-    color: #202124;
+    color: #4d575e;
+    text-decoration: none;
+}
+
+#botones a {
+    text-decoration: none;
+    color: #4d575e;
+}
+
+#botones a:hover {
+    text-decoration: none;
+    color: #4d575e;
 }
 
 #botones {
-    margin-top: 10px;
+    margin-top: 20px;  
 }
 
 footer a {
     color: #202124;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+footer p {
+    color: #202124;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+    padding-left: 30px;
 }
 
 a:hover {
@@ -138,5 +192,5 @@ a:hover {
 header a {
     color: #1f1f1f;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
 }
